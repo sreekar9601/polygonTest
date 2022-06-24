@@ -24,7 +24,7 @@ contract("PermitToken", function ( accounts ) {
   describe("permit", ()=>{
     it("should permit valid", async()=>{
       const instance = await PermitToken.deployed();
-      await instance.permit(accounts[0], accounts[1],5, 12345678, true, 2,1,4);
+      await instance.permit(accounts[0], accounts[1],5, 12345678, true, 2,1,4); 
     })
   })
 
